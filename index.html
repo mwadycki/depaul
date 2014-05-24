@@ -3,7 +3,6 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link href="bootstrap.min.css" rel="stylesheet">
@@ -40,14 +39,14 @@
             <p class="line-separator"></p>
             <p id="subTitle">The city that works</p>
             <div class="list-group">
-            	<a onclick="chgImg('Business')" rel="no-refresh" class="list-group-item">Business</a>
-           	 	<a onclick="chgImg('Culture')" rel="no-refresh" class="list-group-item">Culture and Recreation</a>
-            	<a onclick="chgImg('Environment')" rel="no-refresh" class="list-group-item">Environment</a>
-            	<a onclick="chgImg('Housing')" rel="no-refresh" class="list-group-item">Housing and Development</a>
-            	<a onclick="chgImg('Social')" rel="no-refresh" class="list-group-item">Social Services</a>
-            	<a onclick="chgImg('Civic')" rel="no-refresh" class="list-group-item">Civic Services</a>
-            	<a onclick="chgImg('Education')" rel="no-refresh" class="list-group-item">Education</a>
-            	<a onclick="chgImg('Health')" rel="no-refresh" class="list-group-item">Health</a>
+            	<a onclick="chgImg('Business')" " class="list-group-item">Business</a>
+           	 	<a onclick="chgImg('Culture')"  class="list-group-item">Culture and Recreation</a>
+            	<a onclick="chgImg('Environment')"  class="list-group-item">Environment</a>
+            	<a onclick="chgImg('Housing')" class="list-group-item">Housing and Development</a>
+            	<a onclick="chgImg('Social')"  class="list-group-item">Social Services</a>
+            	<a onclick="chgImg('Civic')"  class="list-group-item">Civic Services</a>
+            	<a onclick="chgImg('Education')"  class="list-group-item">Education</a>
+            	<a onclick="chgImg('Health')" class="list-group-item">Health</a>
           	</div>
           	<p id="centerTxt">Scroll down for news</p>
           </div>
@@ -56,7 +55,7 @@
           <div class="row">
             <div class="col-6 col-sm-6 col-lg-4">
         	  <h6>10 April 2014</h6>
-			  <img class="img-responsive" src="lucas.jpeg">
+			  <img class="img-responsive" src="lucas.jpeg" alt="George Lucas">
               <h4>George Lucas eyes Chicago for art, Star Wars museum</h4>
               <p>Billionaire "Star Wars" creator George Lucas, who wants to establish a major museum to house his significant art and movie 
               memorabilia collection, is considering Chicago as the location after plans for his $300 million Lucas Cultural Arts Museum 
@@ -65,7 +64,7 @@
             </div>
             <div class="col-6 col-sm-6 col-lg-4">
               <h6>11 May 2014</h6>
-			  <img class="img-responsive" src="tilt.jpeg">
+			  <img class="img-responsive" src="tilt.jpeg" alt="TILT"
               <h4>Vertigo-inducing 1000ft viewing platform in Chicago opens to tourists</h4>
               <p>Brave tourists have been trying out Chicago's newest attraction - a 1000ft-high viewing platform that offers spectacular 
 				downward facing views over the city.TILT is housed in 360 CHICAGO on the 94th floor of the John Hancock Tower. The attraction, 
@@ -74,7 +73,7 @@
             </div>
             <div class="col-6 col-sm-6 col-lg-4">
               <h6>1 May 2014</h6>
-	  		  <img class="img-responsive" src="cps.jpeg">
+	  		  <img class="img-responsive" src="cps.jpeg" alt="Chicago Public Schools">
               <h4>Five of Illinois’ top 10 high schools are Chicago Public Schools</h4>
               <p>According to a U.S. News & World Report ranking on the nation’s top 10 high schools, five Chicago Public High 
 				Schools have claimed spots on the state’s top 10 list. The five Chicago Schools are: Northside College Preparatory High School
@@ -83,7 +82,7 @@
             </div>
             <div class="col-6 col-sm-6 col-lg-4">
               <h6>26 July 2012</h6>
-			  <img class="img-responsive" src="motor.jpeg">
+			  <img class="img-responsive" src="motor.jpeg" alt="Motorola">
               <h4>Motorola Mobility leaving Libertyville for downtown Chicago</h4>
               <p>Smartphone-maker Motorola Mobility is moving its headquarters from Libertyville to the Merchandise Mart in summer 2013. 
               	The relocation will bring 3,000 employees to downtown Chicago, the company and Mayor Rahm Emanuel announced Thursday. 
@@ -91,7 +90,7 @@
             </div>
             <div class="col-6 col-sm-6 col-lg-4">
               <h6>26 July 2012</h6>
-			  <iframe class="img-responsive"  src="http://www.youtube.com/embed/PE4wEHD9xIY" frameborder="0" allowfullscreen></iframe>
+			  <iframe class="img-responsive"  src="http://www.youtube.com/embed/PE4wEHD9xIY" allowfullscreen></iframe>
               <h4>Chicago Food Planet Tours Featured on ABC7's Hungry Hound</h4>
               <p>According to Hungry Hound Steve Dolinsky from ABC7 News: "Chicago Food Planet Tours do much more than just take guests
 				into restaurants. They talk about local history and culture as well. Chicago is full of tour operators. But the Chicago Food Planet 
@@ -100,7 +99,7 @@
             </div>
             <div class="col-6 col-sm-6 col-lg-4">
               <h6>15 May 2014</h6>
-			  <img class="img-responsive" src="nwh.jpeg">
+			  <img class="img-responsive" src="nwh.jpeg" alt="Hospital">
               <h4>Northwestern, Cadence reach merger deal</h4>
               <p>Northwestern Memorial HealthCare and Cadence Health said Thursday they have reached a deal to combine into a single 
 				health system that would rank among the largest in the Chicago area. Each system’s board of directors formally gave 
@@ -114,7 +113,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="bootstrap.min.js"></script>
-    <script language="JavaScript">
+    <script>
         	function chgImg(topic) {
         		switch (topic) {
 					case "Business":
@@ -164,6 +163,5 @@
 					}
         	}
         </script>
-    <!--script src="offcanvas.js"></script-->
   </body>
 </html>
