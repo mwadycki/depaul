@@ -190,6 +190,7 @@ a.list-group-item:hover:after{
 body {
 	padding-top: 55px;
 	background-color: black;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 .row {
