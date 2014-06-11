@@ -118,7 +118,6 @@ h5 {
     width: 100%;
 }
   
- 
 @media (min-width: 768px) {
 	h5,.h5  {
     display: none !important;
